@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  color: black;
+  height: 80px;
+}
+.user{
+  display: flex;
+  margin: 20px;
+  font-size: 130%;
+}
+.data{
+  margin-right: 20px;
+}
+.search1{
+  width: 290px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.search2{
+  font-size: 150%;
+  border-radius: 10px;
+  background-color: grey;
+}
+.section{
+  display: flex;
+}
+.box{
+  width: 80%;
+}
+.img{
+  width: 140%;
+}
+.name{
+  background-color: lightseagreen;
+  font-size: 200%;
+}
+.section{
+  justify-content: space-between;
+}
+.box{
+  border: 50px solid white;
+  color: white;
+
+}
+.menu{
+  background-color: gray;
+  height: 50px;
+}
+.menu ul{
+   display: flex;
+   color: white;
+   overflow-y: scroll;
+   
+}
+
+.menu ul li{
+  list-style: none;
+  margin: 28px;
+  font-size: 150%;
+  margin-top: 5px;
+}
+.page{
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+  gap: 50px;
+  background-color: paleturquoise;
+}
+.men{
+  height: 300px;
+}
+.ParaMain{
+  background-color: lightskyblue;
+   background-size: auto;
+   display: flex;
+}
+.ParaImg{
+  width: 500px;
+  height: 700px;
+}
+.Paradata{
+  font-size: 140%;
+  right: 20%;
+  top: 100%;
+}
+.ParaBtn{
+   width: 150px;
+   height: 80px;
+   background-color: black;
+   color: white;
+   font-size: 150%;
+}
+.cart1{
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightsteelblue;
+  height: 300px;
+}
+.removebtn{
+  font-size: 150%;
+  size: 300%;
+  color: white;
+  background-color: black;
+}
+.cartimg{
+  width: 200px;
+  height: 250px;
+}
+.signin{
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 100px;
+  background-color: lightseagreen;
+}
+.signup{
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 100px;
+  background-color: lightseagreen;
+}
+.xx{
+  font-size: 200%;
+  margin-top: 20px;
+}
+.sbtn{
+  margin-top: 20px;
+  font-size: 200%;
+  background-color: grey;
+  color: white;
+}
+.yy{
+  background-color: aqua;
+}
+.len{
+  color: red;
+}
+@media screen and (max-width: 770px) {
+
+  .navbar{
+    width: 770px;
+    height: 90px;
+  }
+  .menu{
+    width: 770px;
+  }
+  .user{
+    font-size: 150%;
+  }
+  .page{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    gap: 50px;
+    background-color: paleturquoise;
+  }
+  .ParaImg {
+    width: 400px;
+    height: 600px;
+  }
+  .signin {
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 30px;
+    background-color: lightseagreen;
+  }
+  .signup {
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: lightseagreen;
+  }
+  }
+@media screen and (max-width: 430px) {
+
+.search1,.search2{
+  display: none;
+}
+.user{
+  
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 70%;
+  margin-left: 200px;
+}
+.navbar{
+  justify-content: initial;
+  height: 40px;
+  width: 430px;
+}
+.menu{
+  width: 430px;
+}
+.section{
+  width: 430px;
+}
+.name{
+  width: 430px;
+  
+}
+.Mainname{
+   font-size: 90%;
+}
+.menu{
+  display: run-in;
+}
+.img{
+  width: 50px;
+}
+.page{
+  display: grid;
+  grid-template-columns: repeat(1,100px);
+  gap: 10px;
+  background-color: paleturquoise;
+}
+.ParaMain{
+  background-color: lightskyblue;
+   background-size: auto;
+   
+}
+.ParaImg{
+  width: 300px;
+  height: 400px;
+}
+.Paradata{
+  font-size: 100%;
+  
+}
+
+
+.sbtn{
+  margin-top: 20px;
+  font-size: 200%;
+  background-color: grey;
+  color: white;
+}
+
+.menu ul li{
+  list-style: none;
+  margin-left: -0px;
+  font-size: 70%;
+  margin-top: 5px;
+}
+.name{
+  font-size: 60%;
+  
+}
+.menu{
+  height: 20px;
+}
+.menu ul{
+  display:flex;
+  overflow-y: scroll;
+}
+.section{
+  overflow-x: scroll;
+  height: 150px;
+  
+}
+.img{
+  width: 90px;
+}
+.box{
+  height: 30%;
+}
+.ParaMain{
+  display: inline;
+  background-color: white;
+}
+.ParaImg{
+  width: 300px;
+  height: 300px;
+}
+.Paradata{
+  font-size: 60%;
+}
+.ParaBtn{
+  top: -20px;
+  left: -10px;
+  width: 100px;
+  height: 30px;
+  font-size: 80%;
+}
+.xx{
+  font-size: 100%;
+}
+.signin{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin-left: 27px;
+  margin-top: 100px;
+}
+.signup{
+  width: 250px;
+  height: 280px;
+  text-align: center;
+  margin-left: 27px;
+  margin-top: 100px;
+}
+.yy{
+  background-color: white;
+}
+.cartimg {
+  width: 150px;
+  height: 200px;
+}
+.cartdata{
+  font-size: 80%;
+}
+.abtn{
+  
+  margin-top: 110px;
+  margin-left: -90px;
+}
+.cart1{
+  height: 200px;
+}
+
+}
+
+
